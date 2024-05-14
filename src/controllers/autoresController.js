@@ -28,7 +28,7 @@ class AutoresController {
     try {
       const autor = await Autor.pegarPeloId(params.id);
 
-      if (!resultado) {
+      if (!autor) {
         return res.status(404).json({ message: `id ${params.id} não encontrado` });
       }
 
