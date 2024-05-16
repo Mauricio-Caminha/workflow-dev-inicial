@@ -1,5 +1,4 @@
 /* eslint-disable camelcase */
-import db from '../db/dbconfig';
 
 class Evento {
   constructor({
